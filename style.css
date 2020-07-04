@@ -1,0 +1,22 @@
+img {
+
+    width: 90px;
+    
+    height: 90px;
+    
+    float: left;
+    
+}
+    
+#idCard {
+    
+    border: 5px solid black;
+    
+    height: 14em;
+    
+    width: 25em;
+    
+}
+h1 {
+    position: static;
+}
