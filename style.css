@@ -6,17 +6,54 @@ img {
     
     float: left;
     
+    margin: 0 auto;
+
+    
 }
     
 #idCard {
     
     border: 5px solid black;
+
+    border-radius: 2em;
     
+    background-image: url(https://images.all-free-download.com/images/graphiclarge/abstract_modern_background_blue_and_green_311176.jpg);
+
     height: 14em;
     
     width: 25em;
+
+    margin: 0 auto;
+
+    text-align: left;
+
     
+
+    font-family: 'Roboto', sans-serif;
 }
 h1 {
     position: static;
+    text-align: center;
+}
+body {
+    text-align: center;
+    line-height: 1.5em;
+    background-color: lightsalmon;
+    font-family: 'Roboto', sans-serif;
+}
+#button {
+    margin-top: 1.2em;
+    margin-bottom: 5em;
+}
+.id {
+    margin-left: 1em;
+    margin-top: 1em;
+}
+#postFullName {
+    margin-bottom: 1em;    
+    margin-top: 1.5em;
+    margin-right: 2em;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: 400;
 }
