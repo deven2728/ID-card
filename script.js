@@ -18,3 +18,4 @@ function idCard() {
     console.log(age)
     console.log(phoneNumber)
 }
+-
