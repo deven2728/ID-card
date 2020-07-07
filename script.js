@@ -9,13 +9,23 @@ function idCard() {
 
     document.getElementById("postFullName").innerHTML = fullName;
     document.getElementById("postAddress").innerHTML = address;
-    document.getElementById("postAge").innerHTML = age
-    document.getElementById("postPhoneNumber").innerHTML = "Phone Number: " + phoneNumber
+    
+    
 
+    var numberArray = [];
+    numberArray.push(age, phoneNumber);
+    
+    for (var i = 0; i < numberArray.length; i++) {
+        if (numberArray[i] <= 100) {
+            document.getElementById("postAge").innerHTML = age;
+        }
+        else if (numberArray[i] > 100) {
+            document.getElementById("postPhoneNumber").innerHTML = "Phone Number: " + phoneNumber;
+        }
+    }
 
     console.log(fullName)
     console.log(address)
     console.log(age)
     console.log(phoneNumber)
 }
--
